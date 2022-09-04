@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Assignment]">
+  <parameter name="browser" value="Internet Explorer"/>
+  <parameter name="version" value="11.0"/>
+  <parameter name="platform" value="WIN10"/>
+  <parameter name="URL" value="https://www.lambdatest.com/selenium-playground/"/>
+  <test parallel="classes" name="Firefox Test(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="version" value="82.0"/>
+    <parameter name="platform" value="WIN7"/>
+    <parameter name="URL" value="https://www.lambdatest.com/selenium-playground/"/>
+    <classes>
+      <class name="myPackage.myClass">
+        <methods>
+          <include name="Scenerio3"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="URLLaunch"/>
+          <include name="URLLaunch"/>
+          <include name="URLLaunch"/>
+          <include name="URLLaunch"/>
+          <include name="Scenerio2"/>
+          <include name="Scenerio1"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- myPackage.myClass -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+  <test parallel="classes" name="Internet Explorer Test(failed)">
+    <parameter name="browser" value="Internet Explorer"/>
+    <parameter name="version" value="11.0"/>
+    <parameter name="platform" value="WIN10"/>
+    <parameter name="URL" value="https://www.lambdatest.com/selenium-playground/"/>
+    <classes>
+      <class name="myPackage.myClass">
+        <methods>
+          <include name="Scenerio3"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="URLLaunch"/>
+          <include name="URLLaunch"/>
+          <include name="URLLaunch"/>
+          <include name="URLLaunch"/>
+          <include name="Scenerio2"/>
+          <include name="Scenerio1"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- myPackage.myClass -->
+    </classes>
+  </test> <!-- Internet Explorer Test(failed) -->
+</suite> <!-- Failed suite [Assignment] -->
